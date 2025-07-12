@@ -236,3 +236,108 @@ body {
   font-size: 12px;
   color: #888;
 }
+/* ---------- Section 4: Contact ---------- */
+.contact {
+  background-color: #f5f7ff;
+  padding: 80px 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.contact-text h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-form label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 14px 16px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  font-size: 14px;
+  background-color: #fff;
+  resize: none;
+}
+
+.contact-form button {
+  margin-top: 10px;
+  padding: 14px 20px;
+  background-color: #1703f8;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: greenyellow;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(135deg, rgb(19, 7, 243), rgb(2, 225, 255));
+  transform: translateY(3px);
+}
+
+/* ---------- Footer ---------- */
+.site-footer {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #ffffff;
+}
+
+.footer-logo {
+  font-size: 48px;
+  font-weight: 800;
+  color: #0c00f9;
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  color: #6b7280;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  color: #4b5563;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #030bf4;
+}
