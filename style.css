@@ -77,3 +77,42 @@ body {
   padding: 10px 18px;
   font-size: 14px;
 }
+.preview-button {
+  padding: 12px 26px;
+  font-size: 14px;
+}
+
+/* ---------- Section 2: Preview ---------- */
+.preview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5f7ff;
+  padding: 80px 60px;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.preview-text {
+  max-width: 500px;
+}
+
+.preview-text h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #1a1a1a;
+}
+
+.preview-text p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+.preview-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
